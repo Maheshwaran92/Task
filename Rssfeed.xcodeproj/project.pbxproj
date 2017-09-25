@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		327B2EBA1F75139E005E93EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B2EB91F75139E005E93EE /* AppDelegate.swift */; };
-		327B2EBC1F75139E005E93EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B2EBB1F75139E005E93EE /* ViewController.swift */; };
 		327B2EBF1F75139E005E93EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327B2EBD1F75139E005E93EE /* Main.storyboard */; };
 		327B2EC11F75139E005E93EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327B2EC01F75139E005E93EE /* Assets.xcassets */; };
 		327B2EC41F75139E005E93EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327B2EC21F75139E005E93EE /* LaunchScreen.storyboard */; };
+		327B2ECC1F751F0D005E93EE /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B2ECB1F751F0D005E93EE /* FeedTableViewController.swift */; };
+		327B2ECE1F751FF5005E93EE /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B2ECD1F751FF5005E93EE /* FeedTableViewCell.swift */; };
+		327B2ED21F7526F8005E93EE /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B2ED11F7526F8005E93EE /* XMLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		327B2EB61F75139E005E93EE /* Rssfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rssfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327B2EB91F75139E005E93EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		327B2EBB1F75139E005E93EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		327B2EBE1F75139E005E93EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		327B2EC01F75139E005E93EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		327B2EC31F75139E005E93EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		327B2EC51F75139E005E93EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327B2ECB1F751F0D005E93EE /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		327B2ECD1F751FF5005E93EE /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		327B2ED11F7526F8005E93EE /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				327B2EB91F75139E005E93EE /* AppDelegate.swift */,
-				327B2EBB1F75139E005E93EE /* ViewController.swift */,
+				327B2ED11F7526F8005E93EE /* XMLParser.swift */,
+				327B2ECB1F751F0D005E93EE /* FeedTableViewController.swift */,
+				327B2ECD1F751FF5005E93EE /* FeedTableViewCell.swift */,
 				327B2EBD1F75139E005E93EE /* Main.storyboard */,
 				327B2EC01F75139E005E93EE /* Assets.xcassets */,
 				327B2EC21F75139E005E93EE /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327B2EBC1F75139E005E93EE /* ViewController.swift in Sources */,
+				327B2ECE1F751FF5005E93EE /* FeedTableViewCell.swift in Sources */,
+				327B2ECC1F751F0D005E93EE /* FeedTableViewController.swift in Sources */,
 				327B2EBA1F75139E005E93EE /* AppDelegate.swift in Sources */,
+				327B2ED21F7526F8005E93EE /* XMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				327B2ECA1F75139E005E93EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
